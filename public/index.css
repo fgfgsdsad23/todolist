@@ -1,0 +1,42 @@
+.todo {
+    margin-bottom: 1rem;
+}
+.todo span.completed {
+    text-decoration: line-through;
+}
+.todo label {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background: #f3f3f3;
+    padding: 1rem;
+}
+.todo i {
+    z-index: 2;
+}
+input[type=text]:not(.browser-default) {
+    padding-left: 50px;
+}
+.brand-logo {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 150%;
+        margin-left: 30px;
+}
+
+.nav-wrapper {
+background-color: rgb(0, 0, 0);
+
+}
+
+.container h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+}
+
+.active {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
